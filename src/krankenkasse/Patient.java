@@ -1,3 +1,5 @@
+package krankenkasse;
+
 public class Patient extends Person{
     private String versichertennummer;
     public Patient(String name, int alter,String geschlecht, String versichertennummer) {

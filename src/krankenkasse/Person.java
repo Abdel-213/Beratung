@@ -1,3 +1,4 @@
+package krankenkasse;
 public abstract class Person {
     protected String name;
     protected int alter;

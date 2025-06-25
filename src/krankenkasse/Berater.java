@@ -1,3 +1,5 @@
+package krankenkasse;
+
 public class Berater extends Person implements Beratunginterface {
     private String personalnummer;
 

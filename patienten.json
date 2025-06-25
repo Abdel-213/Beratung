@@ -1,0 +1,26 @@
+[
+  {
+    "versichertennummer": "P15423325",
+    "name": "Mueller werner",
+    "alter": 66,
+    "geschlecht": "m�nnlich"
+  },
+  {
+    "versichertennummer": "P1125411458",
+    "name": "Pauler von  Stein",
+    "alter": 54,
+    "geschlecht": "weiblich"
+  },
+  {
+    "versichertennummer": "P12254586",
+    "name": "yilmaz Turan",
+    "alter": 25,
+    "geschlecht": "maennlich"
+  },
+  {
+    "versichertennummer": "p554526",
+    "name": "Peter fox",
+    "alter": 68,
+    "geschlecht": "maennlich"
+  }
+]
