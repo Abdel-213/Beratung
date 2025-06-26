@@ -96,6 +96,7 @@
   {
     "id": "15",
     "versichertennummer": "88812",
+    "zugewiesenerBerater": "Mark Weber",
     "name": "Lukas Stein",
     "alter": 48,
     "geschlecht": "m"
