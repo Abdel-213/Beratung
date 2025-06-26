@@ -111,6 +111,7 @@
   {
     "id": "17",
     "versichertennummer": "32198",
+    "zugewiesenerBerater": "Anna Pudolski",
     "name": "Tim Berger",
     "alter": 58,
     "geschlecht": "m"
