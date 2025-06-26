@@ -13,11 +13,11 @@ public class ScannerUtils {
     public static int getInt(String prompt) {
         System.out.print(prompt);
         while (!scanner.hasNextInt()) {
-            System.out.println("Bitte eine gültige Zahl eingeben.");
-            scanner.next(); // Ungültige Eingabe verwerfen
+            System.out.println("Bitte eine Zahl eingeben:");
+            scanner.next();
         }
         int value = scanner.nextInt();
-        scanner.nextLine(); // Scanner-Puffer leeren
+        scanner.nextLine(); // Puffer leeren
         return value;
     }
 }

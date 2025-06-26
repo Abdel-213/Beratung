@@ -1,0 +1,32 @@
+[
+  {
+    "personalnummer": "B1234",
+    "name": "Anna Pudolski",
+    "alter": 35,
+    "geschlecht": "weiblich"
+  },
+  {
+    "personalnummer": "B5678",
+    "name": "Thomas Schmidt",
+    "alter": 42,
+    "geschlecht": "männlich"
+  },
+  {
+    "personalnummer": "B9876",
+    "name": "Laura Hoffmann",
+    "alter": 38,
+    "geschlecht": "weiblich"
+  },
+  {
+    "personalnummer": "B1357",
+    "name": "Mark Weber",
+    "alter": 47,
+    "geschlecht": "männlich"
+  },
+  {
+    "personalnummer": "B2468",
+    "name": "Janina Krueger",
+    "alter": 29,
+    "geschlecht": "w"
+  }
+]

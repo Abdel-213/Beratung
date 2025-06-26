@@ -1,26 +1,124 @@
 [
   {
-    "versichertennummer": "P15423325",
-    "name": "Mueller werner",
-    "alter": 66,
-    "geschlecht": "m�nnlich"
+    "id": "1",
+    "versichertennummer": "4444454",
+    "name": "Karl Lagerfeld",
+    "alter": 88,
+    "geschlecht": "m"
   },
   {
-    "versichertennummer": "P1125411458",
-    "name": "Pauler von  Stein",
+    "id": "2",
+    "versichertennummer": "144587",
+    "name": "Harald Locker",
     "alter": 54,
-    "geschlecht": "weiblich"
+    "geschlecht": "d"
   },
   {
-    "versichertennummer": "P12254586",
-    "name": "yilmaz Turan",
-    "alter": 25,
-    "geschlecht": "maennlich"
+    "id": "3",
+    "versichertennummer": "44575",
+    "name": "Henna Stall",
+    "alter": 64,
+    "geschlecht": "m"
   },
   {
-    "versichertennummer": "p554526",
-    "name": "Peter fox",
-    "alter": 68,
-    "geschlecht": "maennlich"
+    "id": "5",
+    "versichertennummer": "12567",
+    "zugewiesenerBerater": "Laura Hoffmann",
+    "name": "Tom Meier",
+    "alter": 37,
+    "geschlecht": "m"
+  },
+  {
+    "id": "6",
+    "versichertennummer": "78956",
+    "name": "Sarah Klein",
+    "alter": 41,
+    "geschlecht": "w"
+  },
+  {
+    "id": "7",
+    "versichertennummer": "45985",
+    "name": "David Gross",
+    "alter": 33,
+    "geschlecht": "m"
+  },
+  {
+    "id": "8",
+    "versichertennummer": "36521",
+    "zugewiesenerBerater": "Mark Weber",
+    "name": "Anna Seidel",
+    "alter": 27,
+    "geschlecht": "w"
+  },
+  {
+    "id": "9",
+    "versichertennummer": "78654",
+    "zugewiesenerBerater": "Thomas Schmidt",
+    "name": "Franz Becker",
+    "alter": 50,
+    "geschlecht": "m"
+  },
+  {
+    "id": "10",
+    "versichertennummer": "45231",
+    "name": "Julia Sommer",
+    "alter": 22,
+    "geschlecht": "w"
+  },
+  {
+    "id": "11",
+    "versichertennummer": "98745",
+    "name": "Peter Sturm",
+    "alter": 60,
+    "geschlecht": "m"
+  },
+  {
+    "id": "12",
+    "versichertennummer": "11223",
+    "name": "Klara Himmel",
+    "alter": 46,
+    "geschlecht": "w"
+  },
+  {
+    "id": "13",
+    "versichertennummer": "33558",
+    "name": "Stefan Krug",
+    "alter": 39,
+    "geschlecht": "m"
+  },
+  {
+    "id": "14",
+    "versichertennummer": "66772",
+    "name": "Nora Blau",
+    "alter": 35,
+    "geschlecht": "w"
+  },
+  {
+    "id": "15",
+    "versichertennummer": "88812",
+    "name": "Lukas Stein",
+    "alter": 48,
+    "geschlecht": "m"
+  },
+  {
+    "id": "16",
+    "versichertennummer": "44419",
+    "name": "Mia Sonne",
+    "alter": 31,
+    "geschlecht": "w"
+  },
+  {
+    "id": "17",
+    "versichertennummer": "32198",
+    "name": "Tim Berger",
+    "alter": 58,
+    "geschlecht": "m"
+  },
+  {
+    "id": "18",
+    "versichertennummer": "65421",
+    "name": "Eva Licht",
+    "alter": 26,
+    "geschlecht": "w"
   }
 ]
