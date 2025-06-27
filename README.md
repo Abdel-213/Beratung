@@ -42,15 +42,16 @@ javac -d bin src/krankenkasse/*.java
 
 ### Projektstruktur
 
-krankenkasse/
-├── Main.java
-├── Patient.java
-├── Berater.java
-├── PatientVerwaltung.java
-├── BeraterVerwaltung.java
-├── ScannerUtils.java
-├── Beratunginterface.java
-├── Person.java (abstract)
+  src/krankenkasse(package)
+  ├── Main.java
+  ├── Patient.java
+  ├── Berater.java
+  ├── PatientVerwaltung.java
+  ├── BeraterVerwaltung.java
+  ├── ScannerUtils.java
+  ├── Beratunginterface.java
+  ├── Person.java (abstract)
+
 ├── patienten.json
 ├── berater.json
 
