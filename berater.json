@@ -28,5 +28,17 @@
     "name": "Janina Krueger",
     "alter": 29,
     "geschlecht": "w"
+  },
+  {
+    "personalnummer": "700501",
+    "name": "Joe Black",
+    "alter": 41,
+    "geschlecht": "männlich"
+  },
+  {
+    "personalnummer": "700213",
+    "name": "Latifa Fadel",
+    "alter": 30,
+    "geschlecht": "weiblich"
   }
 ]

@@ -18,15 +18,15 @@ public class Main {
             switch (eingabe) {
                 case "1" -> patienten.patientHinzufuegen(null);
                 case "2" -> patienten.patientenAnzeigen();
-                case "3" -> patienten.patientenAnzeigen();
-                case "4" -> patienten.patientLoeschenNachID();
-                case "5" -> berater.beraterHinzufuegen(null);
-                case "6" -> berater.beraterAnzeigen();
-                case "7" -> berater.beraterSuchenUndAnzeigen();
-                case "8" -> berater.beraterLoeschen();
-                case "9" -> berater.beraterZuweisen(patienten);
+                case "3" -> patienten.patientLoeschenNachID();
+                case "4" -> berater.beraterHinzufuegen(null);
+                case "5" -> berater.beraterAnzeigen(); 
+                case "6" -> berater.beraterLoeschen();
+                case "7" -> berater.beraterZuweisen(patienten);
+                case "8" -> patienten.patientSuchen();
+                case "9" -> berater.beraterSuchenUndAnzeigen();
                 case "0" -> running = false;
-                default -> System.out.println("⚠️ Ungültige Eingabe. Bitte eine Zahl von 0 bis 9 eingeben.");
+                default -> System.out.println("⚠️ Ungültige Eingabe. Bitte eine Zahl von 0 bis 7 eingeben.");
             }
 
             if (!eingabe.equals("0")) {
@@ -46,15 +46,15 @@ public class Main {
                 ========================================
                 1.  Patient hinzufügen
                 2.  Patienten anzeigen
-                3.  Patient aufrufen
-                4.  Patient löschen
-                5.  Berater hinzufügen
-                6.  Berater anzeigen
-                7.  Berater aufrufen
-                8.  Berater löschen
+                3.  Patient löschen
+                4.  Berater hinzufügen
+                5.  Berater anzeigen
+                6.  Berater löschen
                     ========================================
-                9.  Berater zuweisen
+                7.  Berater zuweisen
                     ========================================
+                8.  Patienten suchen
+                9.  Berater suchen    
                 0.  Beenden
                 """);
     }

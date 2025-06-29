@@ -8,14 +8,31 @@ import java.util.*;
 
 public class BeraterVerwaltung {
     private List<Berater> beraterListe = new ArrayList<>();
-
+    // Konstruktor, der die Berater aus der JSON-Datei lädt
+    // und die Liste initialisiert
+    
     public BeraterVerwaltung() {
         beraterListe = ladeBerater();
     }
+    // Methoden zur Verwaltung der Berater
+
 
     public void beraterHinzufuegen(Berater berater) {
+        if (berater == null) {
+           String name = ScannerUtils.getString("Name des Beraters: ");
+            int alter = ScannerUtils.getInt("Alter des Beraters: ");
+            String geschlecht = ScannerUtils.getString("Geschlecht des Beraters: ");
+            String personalnummer = ScannerUtils.getString("Personalnummer des Beraters: ");
+            berater = new Berater(name, alter, geschlecht, personalnummer);}
+        
+       
         beraterListe.add(berater);
+        beraterSpeichernAlsJSON();
+        System.out.println("Berater hinzugefügt: " + berater.getName());
     }
+        
+    
+    
 
     public void beraterAnzeigen() {
         for (Berater b : beraterListe) {
@@ -40,14 +57,7 @@ public class BeraterVerwaltung {
         }
     }
 
-    public Berater findeBeraterNachName(String name) {
-        for (Berater b : beraterListe) {
-            if (b.getName().equalsIgnoreCase(name)) {
-                return b;
-            }
-        }
-        return null;
-    }
+   
     // In BeraternVerwaltung.java ergänzen
     public Berater beraterSuchenNachName(String name) {
     for (Berater b : beraterListe) {

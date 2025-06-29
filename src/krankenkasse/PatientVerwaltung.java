@@ -64,6 +64,19 @@ public class PatientVerwaltung {
         System.out.println("Patient " + patient.getName() + " wurde hinzugefügt.");
     }
 
+    public void patientSuchen() {
+    String merkmal = ScannerUtils.getString("Nach welchem Namen oder ID suchen?");
+    String merkmalTyp = merkmal.matches("\\d+") ? "id" : "name";
+    Patient p = patientSuchenNachMerkmal(merkmal, merkmalTyp);
+    
+    if (p != null) {
+        System.out.println("Gefundener Patient:\n" + p);
+    } else {
+        System.out.println("❌ Kein Patient gefunden.");
+    }
+}
+
+
     public void patientenAnzeigen() {
         for (Patient p : patientenListe) {
             System.out.println(p.getName() + ", Alter: " + p.getAlter() + ", Berater: " + p.getZugewiesenerBerater());
@@ -99,6 +112,11 @@ public class PatientVerwaltung {
 
     public List<Patient> getPatientenListe() {
         return patientenListe;
+    }
+
+    public void setPatientenListe(List<Patient> patientenListe) {
+        this.patientenListe = patientenListe;
+        patientenSpeichernAlsJSON();
     }
 }
 

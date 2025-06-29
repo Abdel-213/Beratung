@@ -75,6 +75,7 @@
   {
     "id": "12",
     "versichertennummer": "11223",
+    "zugewiesenerBerater": "Thomas Schmidt",
     "name": "Klara Himmel",
     "alter": 46,
     "geschlecht": "w"

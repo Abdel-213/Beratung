@@ -66,18 +66,15 @@ BERATUNG/
 ### Benutzeroberfläche (Textbasiert)
 
 
-========================================
  K R A N K E N K A S S E   M E N Ü
 ========================================
 1.  Patient hinzufügen
 2.  Patienten anzeigen
-3.  Patient aufrufen
-4.  Patient löschen
-5.  Berater hinzufügen
-6.  Berater anzeigen
-7.  Berater aufrufen
-8.  Berater löschen
+3.  Patient löschen
+4.  Berater hinzufügen
+5.  Berater anzeigen
+6.  Berater lösch
     ========================================
-9.  Berater zuweisen
+7.  Berater zuweisen
     ========================================
 0.  Beenden
