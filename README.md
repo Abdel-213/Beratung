@@ -73,8 +73,10 @@ BERATUNG/
 3.  Patient löschen
 4.  Berater hinzufügen
 5.  Berater anzeigen
-6.  Berater lösch
+6.  Berater löschen
     ========================================
 7.  Berater zuweisen
     ========================================
+8.  Pateient suchen
+9.  Berater suchen   
 0.  Beenden
