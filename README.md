@@ -42,30 +42,32 @@ javac -d bin src/krankenkasse/*.java
 
 ### Projektstruktur
 
-  src/krankenkasse(package)
-  ├── Main.java
-  ├── Patient.java
-  ├── Berater.java
-  ├── PatientVerwaltung.java
-  ├── BeraterVerwaltung.java
-  ├── ScannerUtils.java
-  ├── Beratunginterface.java
-  ├── Person.java (abstract)
-
-├── patienten.json
-├── berater.json
-
-BERATUNG/
-├── .vscode/
-├── lib/
+ BERATUNG/
+├── .vscode/                  # VS Code-Einstellungen (optional)
+├── lib/                      # Externe Bibliotheken (z. B. Gson)
 ├── src/
-├── berater.json
-├── patienten.json
-├── README.md 
+│   └── krankenkasse/         # Hauptpaket mit allen Klassen
+│       ├── Berater.java                # Modellklasse für Berater
+│       ├── BeraterVerwaltung.java     # Verwaltung und Logik für Berater
+│       ├── Beraterinterface.java      # Interface für Berateraktionen
+│       ├── Beratungsprotokoll.java    # Modellklasse für Beratungsprotokolle
+│       ├── Beratungsverwaltung.java   # Verwaltung der Beratungen
+│       ├── Main.java                  # Einstiegspunkt des Programms
+│       ├── Patient.java               # Modellklasse für Patienten
+│       ├── PatientVerwaltung.java     # Verwaltung und Logik für Patienten
+│       ├── Person.java                # Abstrakte Basisklasse für Patient/Berater
+│       ├── ScannerUtils.java          # Hilfsmethoden zur Eingabe
+│       └── Speichern.java             # Methoden zum Speichern/Laden von JSON-Dateien
+├── berater.json              # JSON-Datei mit allen Beratern
+├── beratungsprotokolle.json # JSON-Datei mit allen Beratungsprotokollen
+├── patienten.json            # JSON-Datei mit allen Patienten
+└── README.md                 # Projektbeschreibung
+
 
 ### Benutzeroberfläche (Textbasiert)
 
 
+========================================
  K R A N K E N K A S S E   M E N Ü
 ========================================
 1.  Patient hinzufügen
@@ -77,6 +79,7 @@ BERATUNG/
     ========================================
 7.  Berater zuweisen
     ========================================
-8.  Pateient suchen
-9.  Berater suchen   
+8.  Patienten suchen
+9.  Berater suchen
+10. Beratungsprotokoll anzeigen
 0.  Beenden
