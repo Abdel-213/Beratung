@@ -56,8 +56,8 @@ javac -d bin src/krankenkasse/*.java
 │       ├── Patient.java               # Modellklasse für Patienten
 │       ├── PatientVerwaltung.java     # Verwaltung und Logik für Patienten
 │       ├── Person.java                # Abstrakte Basisklasse für Patient/Berater
-│       ├── ScannerUtils.java          # Hilfsmethoden zur Eingabe
-│       └── Speichern.java             # Methoden zum Speichern/Laden von JSON-Dateien
+│       ├── ScannerUtils.java          # Klasse mit Hilfsmethoden zur Eingabe
+│       └── Speichern.java             # Klasse mit Methoden zum Speichern/Laden von JSON-Dateien
 ├── berater.json              # JSON-Datei mit allen Beratern
 ├── beratungsprotokolle.json # JSON-Datei mit allen Beratungsprotokollen
 ├── patienten.json            # JSON-Datei mit allen Patienten
