@@ -25,6 +25,10 @@ public class Main {
                 case "7" -> berater.beraterZuweisen(patienten);
                 case "8" -> patienten.patientSuchen();
                 case "9" -> berater.beraterSuchenUndAnzeigen();
+                case "10" -> {
+                    Beratungsverwaltung beratung = new Beratungsverwaltung();
+                    beratung.neueBeratungHinzufuegen();
+                }
                 case "0" -> running = false;
                 default -> System.out.println("⚠️ Ungültige Eingabe. Bitte eine Zahl von 0 bis 7 eingeben.");
             }
@@ -54,7 +58,8 @@ public class Main {
                 7.  Berater zuweisen
                     ========================================
                 8.  Patienten suchen
-                9.  Berater suchen    
+                9.  Berater suchen 
+                10. Beratungsprotokoll anzeigen   
                 0.  Beenden
                 """);
     }
