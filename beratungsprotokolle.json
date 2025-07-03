@@ -1,0 +1,47 @@
+[
+  {
+    "patientenname": "Sarah Klein",
+    "beratername": "Laura Hoffmann",
+    "datum": "2025-07-02",
+    "uhrzeit": "00:46",
+    "dauer": "45",
+    "thema": "Zahnersatzversicherung",
+    "notizen": "Der Patient wurde umfassend �ber die Leistungen der Zahnersatzversicherung informiert. Es wurden Unterschiede zwischen Regelversorgung, gleichartigem und andersartigem Zahnersatz erl�utert. Der Berater hat empfohlen, eine Zusatzversicherung in Betracht zu ziehen, da die gesetzliche Krankenkasse nur einen Teil der Kosten übernimmt. Ein Vergleich von drei Anbietern wurde dem Patienten �berreicht. Entscheidung soll beim nächsten Termin besprochen werden."
+  },
+  {
+    "patientenname": "Tom Meier",
+    "beratername": "Laura Hoffmann",
+    "datum": "2025-07-02",
+    "uhrzeit": "10:15",
+    "dauer": "30",
+    "thema": "Reiseversicherung f�r Langzeitaufenthalt",
+    "notizen": "Der Patient plant einen Langzeitaufenthalt in Australien und ben�tigt eine passende Reiseversicherung. Es wurde eine spezielle Langzeitreiseversicherung empfohlen, die medizinische Versorgung und R�cktransport abdeckt. Der Berater hat dem Patienten Unterlagen zu verschiedenen Anbietern ausgeh��ndigt. N��chster Termin in einer Woche zur finalen Entscheidung."
+  },
+  {
+    "patientenname": "Andreas Locker",
+    "beratername": "Dr. Werner Lindner",
+    "datum": "2025-07-03",
+    "uhrzeit": "09:30",
+    "dauer": "45",
+    "thema": "Psychosoziale Beratung bei beruflicher �berlastung",
+    "notizen": "Der Patient schildert anhaltenden Stress am Arbeitsplatz, verbunden mit Schlafst�rungen und Anzeichen emotionaler Ersch�pfung. Es wurde �ber m�gliche Ursachen gesprochen, darunter hohe Arbeitslast und fehlende Pausen. Der Berater hat Entlastungsgespr�che empfohlen und �ber M�glichkeiten der Kurzzeittherapie sowie betriebliche Angebote zur Stressbew�ltigung informiert. Ein Folgetermin zur weiteren Einsch�tzung ist in 2 Wochen angesetzt."
+  },
+  {
+    "patientenname": "Franz Becker",
+    "beratername": "Thomas Schmidt",
+    "datum": "2025-07-04",
+    "uhrzeit": "14:00",
+    "dauer": "60",
+    "thema": "Altersvorsorge und Rentenplanung",
+    "notizen": "Der Patient m��chte seine Altersvorsorge optimieren. Es wurde eine Analyse der aktuellen Situation vorgenommen, inklusive gesetzlicher Rente und privater Vorsorge. Der Berater hat verschiedene Modelle der privaten Altersvorsorge vorgestellt, darunter Riester-Rente und betriebliche Altersvorsorge. Der Patient wird gebeten, weitere Informationen zu sammeln und beim n��chsten Termin eine Entscheidung zu treffen."
+  },
+  {
+    "patientenname": "Klara Himmel",
+    "beratername": "Thomas Schmidt",
+    "datum": "2025-07-05",
+    "uhrzeit": "11:00",
+    "dauer": "30",
+    "thema": "Gesundheitscheck und Vorsorgeuntersuchungen",
+    "notizen": "Die Patientin hat Fragen zu empfohlenen Vorsorgeuntersuchungen. Es wurde ein individueller Gesundheitscheck erstellt, der Blutuntersuchungen, Krebsvorsorge und Impfstatus umfasst. Der Berater hat die Wichtigkeit regelm����iger Untersuchungen betont und einen Termin f��r die n��chste Untersuchung in 6 Monaten vereinbart."
+  }
+]
