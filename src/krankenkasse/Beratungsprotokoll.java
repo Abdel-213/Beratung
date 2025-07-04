@@ -23,6 +23,7 @@ public class Beratungsprotokoll {
         return patientenname;
     }
 
+
     public String getBeratername() {
         return beratername;
     }
@@ -40,28 +41,6 @@ public class Beratungsprotokoll {
     }
     public String getNotizen() {
         return notizen;
-    }
-    public void setPatientenname(String patientenname) {
-        this.patientenname = patientenname;
-    }
-    public void setBeratername(String beratername) {
-        this.beratername = beratername;
-    }
-
-    public void setDatum(String datum) {
-        this.datum = datum;
-    }
-    public void setUhrzeit(String uhrzeit) {
-        this.uhrzeit = uhrzeit;
-    }
-    public void setDauer(String dauer) {
-        this.dauer = dauer;
-    }
-    public void setThema(String thema) {
-        this.thema = thema;
-    }
-    public void setNotizen(String notizen) {
-        this.notizen = notizen;
     }
 
 
